@@ -1,0 +1,71 @@
+body {
+    background-color: #33bdb9; /* Cambia el color de fondo */
+    
+}
+
+header {
+    background-color: #8346f6;
+    padding: 30px 30px;
+    color: #06f9ed;
+    text-align: corner;
+    
+}
+
+h1 {
+    color: #333;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.menu-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu-item img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+body::before {
+    content: '';
+    background-image: url('assets/imagenes/LOGO.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px; /* Tamaño del círculo */
+    height: 250px; /* Tamaño del círculo */
+    border-radius: 50%; /* Convierte en un círculo */
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
